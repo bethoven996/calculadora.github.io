@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body class="body">
+    <div class="cont-todo" id="cont-todo">
+        <img class = "img"src="https://juanenriquevieyragil.files.wordpress.com/2014/01/homero-lentes.gif" alt="">
+        <div class="cuerpo-calculadora" id="cuerpo-calculadora">
+            <input type="text" class="cont-resultado" id="cont-resultado" value="" autocomplete="off" readonly></input>
+            <div class="cont-btn-num" id="cont-btn-num">
+                <div class="btn-num">
+                    <button class="btn" value="1">1</button>
+                </div>
+                <div class="btn-num">
+                    <button class="btn" value="2" >2</button>
+                </div>
+                <div class="btn-num">
+                    <button class="btn" value="3" >3</button>
+                </div>
+                <div class="btn-num">
+                    <button class="btn"  value="4">4</button>
+                </div>
+                <div class="btn-num">
+                    <button class="btn"  value="5">5</button>
+                </div>
+                <div class="btn-num">
+                    <button class="btn"  value="6">6</button>
+                </div>
+                <div class="btn-num">
+                    <button class="btn"  value="7">7</button>
+                </div>
+                <div class="btn-num">
+                    <button class="btn"  value="8">8</button>
+                </div>
+                <div class="btn-num">
+                    <button class="btn"  value="9">9</button>
+                </div>
+                <div class="btn-num">
+                    <button value= "0"class="btn"  value="0">0</button>
+                </div>
+                <div class="btn-decimal">
+                    <button value="." class="btn">.</button>
+                </div>
+                <div class="cont-total" width = "60px">
+                    <button class="btn" id="btn-total">=</button>
+                </div>
+            </div>
+            <div class="cont-btn-operadores" id="cont-btn-operadores">
+                <div class="btn-operador" id="btn-operador">
+                    <button class="btn-suma" id="btn-suma" value="+">+</button>
+                </div>
+                <div class="btn-operador">
+                    <button class="btn-restar" id="btn-restar" value="-">-</button>
+                </div>
+                <div class="btn-operador">
+                    <button class="btn-multiplicar" id="btn-multiplicar" value="X">X</button>
+                </div>
+                <div class="btn-operador">
+                    <button class="btn-dividir" id="btn-dividir" value="/">/</button>
+                </div>
+            </div>
+            <div class="cont-btn-clear" id="cont-btn-clear">
+                <button class="btn-clear" id="btn-clear">C</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculadora.js"></script>
+    <link rel="stylesheet" href="calculadora.css">
+</body>
